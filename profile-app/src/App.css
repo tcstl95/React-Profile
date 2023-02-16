@@ -74,6 +74,8 @@ header, h1{
   margin-top: auto;
 }
 
-.icon{
-  
+.footer-section{
+  background-color: #D80032;
+  font-family: monospace;
+  margin-bottom: 0px;
 }

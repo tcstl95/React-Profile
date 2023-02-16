@@ -6,8 +6,7 @@ function Project ()  {
         <div className="project-section" id="project">
             <h2>My Projects</h2>
             <p className="project-links"></p>
-            <p>Weather App</p>
-            <a href="https://tcstl95.github.io/Weather-App/" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/cute-clipart/64/null/apple-weather.png" alt="Weather icon"></img></a>
+            <p>Weather App</p> <a href="https://tcstl95.github.io/Weather-App/" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/cute-clipart/64/null/apple-weather.png" alt="Weather icon"></img></a>
             <p> Password Generator</p>
              <a href="https://tcstl95.github.io/My-PW-Generator/" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/color/48/null/forgot-password.png"alt="Password icon"></img></a>
             <p>Daily Planner</p>

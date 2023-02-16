@@ -4,8 +4,8 @@ import React from "react";
 
 function Footer()  {
     return (
-        <div className="footer" id="footer">
-            <p>Created by: Thomas Fredrick Carlson</p> 
+        <div className="footer-section" id="footer">
+            <p>Created with:<img src="https://img.icons8.com/color/48/null/react-native.png" alt="React"></img></p> 
            
         </div>
     )

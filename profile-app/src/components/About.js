@@ -4,7 +4,7 @@ import React from "react";
 function About()  {
 
     return (
-        <div className="about" id="about">
+        <div className="about-section" id="about">
             <h2>About Me</h2>
             <p>My name is Thomas Carlson, and I am currently a student at the Unviersity of Kansas bootcamp for full stack web development.</p>
             <p>Before taking this bootcamp, I have been working in the field of both insurance, as well as the financial services industry.</p>

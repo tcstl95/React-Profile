@@ -18,7 +18,7 @@ class Header extends Component {
                 <Navigation />
             </div>
             
-        <div className="header-section" id="header">
+        <div className="header" id="header">
             <Routes>
             
                     <Route path="/about" component={About} />

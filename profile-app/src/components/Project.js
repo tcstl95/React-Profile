@@ -1,12 +1,8 @@
 import React from "react";
 
-function Project (props)  {
+function Project ()  {
     return (
-        <div className="card">
-            <div className="img-container">
-                <img alt={props.name} src={props.image}/>
-
-        </div>
+        
         <div className="project-section" id="project">
             <h2>My Projects</h2>
             <p className="project-links"></p>
@@ -19,7 +15,7 @@ function Project (props)  {
             <p>JavaScript Quiz</p>
              <a href="https://tcstl95.github.io/JavaScript-Quiz/" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/glyph-neue/64/null/test-passed.png" alt="Quiz icon"/></a>
             </div>
-        </div>
+        
     )
 }
 

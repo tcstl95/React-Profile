@@ -12,12 +12,13 @@ class Header extends Component {
         return (
         <HashRouter>
         <header>
-        <h1>Tom Carlson</h1>
-            <div className="navigation section" id="navigation">
+        <h1>Thomas Fredrick Carlson</h1>
+        <img src="https://avatars.githubusercontent.com/u/107820740?s=400&u=94dab4585e3c67b6bc39e213d29eebcd7d3b5845&v=4" alt="Header-pic" className="Header-pic"></img>
+            <div className="navigation-area" id="navigation">
                 <Navigation />
             </div>
             
-        <div className="header section" id="header">
+        <div className="header-section" id="header">
             <Routes>
             
                     <Route path="/about" component={About} />

@@ -1,3 +1,6 @@
+body{
+  background-color: #38aeccff;
+}
 .App {
   text-align: center;
 }
@@ -10,6 +13,12 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+@media screen and (max-width: 600px) {
+  main,
+  nav {
+    flex-direction: column;
   }
 }
 
@@ -36,3 +45,32 @@
     transform: rotate(360deg);
   }
 }
+.Header-pic{
+  width: 200px;
+}
+.header-section{
+  background-color: #AECFDF;
+
+}
+.about-section, .project-section, .contact-section{
+  font-family: monospace;
+ 
+}
+.navigation-section{
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  font-family: monospace;
+  
+}
+.navigation-area{
+  background-color: #16DB93;
+}
+header, h1{
+  background-color: #306BAC;
+  font-family: monospace;
+  margin-top: auto;
+}
+

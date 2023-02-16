@@ -1,5 +1,5 @@
 import React from "react";
-
+// Contact component//
 function Contact ()  {
     return (
         <div className="contact-section" id="contact">

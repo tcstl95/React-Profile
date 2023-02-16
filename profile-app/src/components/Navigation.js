@@ -1,6 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-function Navigation (props)  {
+
+// Navigation component
+// Currnetly trying to figure out how to get the navigation to work
+function Navigation ()  {
     return (
         <div className="navigation-section" id="navigation">
                 <NavLink to="/about">About Me</NavLink>

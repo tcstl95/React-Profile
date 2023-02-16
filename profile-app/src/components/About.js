@@ -1,6 +1,6 @@
 import React from "react";
 
-
+// About me section
 function About()  {
 
     return (

@@ -6,6 +6,7 @@ import Project from "./Project";
 import Contact from "./Contact";
 
 
+// Header component
 
 class Header extends Component {
     render (){

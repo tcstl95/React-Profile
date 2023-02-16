@@ -1,7 +1,7 @@
 import React from "react";
 
 
-
+// Footer component//
 function Footer()  {
     return (
         <div className="footer-section" id="footer">
